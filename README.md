@@ -1,2 +1,2 @@
 # k8s-public
-code related to kubernetes - public avail
+Various Scripts and Documentation Gathered for Kubernetes
