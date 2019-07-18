@@ -22,11 +22,7 @@ echo "source <(kubectl completion bash); alias k=kubectl; complete -F __start_ku
 # a config file that uses a token for the admin user for authenticating with the cluster.
 
 
-# 3) Finalize K8s config
-kubectl cluster-info
-kubectl apply -f https://raw.githubusercontent.com/coreos/flannel/master/Documentation/kube-flannel.yml
-kubectl taint nodes --all node-role.kubernetes.io/master-
-kubectl get nodes -o wide
+
 
 # For details, see:
 # - https://kubernetes.io/docs/setup/independent/install-kubeadm/
